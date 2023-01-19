@@ -1,0 +1,10 @@
+Instructions to run the Tutorial for the PercentPositive_pSMAD1 CellProfiler pipeline
+
+Download CellProfiler from: https://cellprofiler.org/releases
+Download the pipeline PPE3_PercentPositive_pSMAD1 and the tutorial images (TWT_6hr_LMNB1.tif, TWT_6hr_pSMAD1.tif)
+
+1. Open CellProfiler and drag the PPE3 downloaded pipeline into the leftmost box, labelled "Drop a pipeline here (.cppipe or .cpproj).
+2. Drag downloaded images into the the rightmost box, labelled "Drop files and folders here".
+3. Click on the NamesAndTypes tab in the left panel, and press "Update".
+4. Click on "Analyze Images".
+5. CellProfiler will automatically save the Results table.
