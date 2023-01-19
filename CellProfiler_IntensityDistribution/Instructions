@@ -1,0 +1,11 @@
+Instructions to run the Tutorial for the IntensityDistribution CellProfiler pipeline
+
+Download CellProfiler from: https://cellprofiler.org/releases
+Download the pipeline PPE2_IntensityDistribution and the tutorial images (TWT_LMNB1.jpg, TWT_pSMAD1.jpg, and TWT_TJP1.jpg)
+
+1. Open CellProfiler and drag the PPE2 downloaded pipeline into the leftmost box, labelled "Drop a pipeline here (.cppipe or .cpproj).
+2. Drag downloaded images into the the rightmost box, labelled "Drop files and folders here".
+3. Click on the NamesAndTypes tab in the left panel, and press "Update".
+4. Click on "Start Test Mode", and "Run".
+5. CellProfiler will ask you to manually identify the colony as the primary object. Hold "F" to draw a circle within the borders for the colony of interest.
+6. In the final window named "MeasureObjectIntensityDistribution #12", you may choose to save the table as a .csv file (File>Save Table).
