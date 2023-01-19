@@ -1,0 +1,10 @@
+Instructions to run the Tutorial for the PercentTriplePositive_PGCLC CellProfiler pipeline
+
+Download CellProfiler from: https://cellprofiler.org/releases
+Download the pipeline PPE5_PercentTriplePositive_PGCLC and the tutorial images (TKD_LMNB1.tif, TKD_BLIMP1.tif, TKD_SOX17.tif, TKD_TFAP2C.tif)
+
+1. Open CellProfiler and drag the PPE5 downloaded pipeline into the leftmost box, labelled "Drop a pipeline here (.cppipe or .cpproj).
+2. Drag downloaded images into the the rightmost box, labelled "Drop files and folders here".
+3. Click on the NamesAndTypes tab in the left panel, and press "Update".
+4. Click on "Analyze Images".
+5. CellProfiler will determine triple positive expression of markers BLIMP1, SOX17, TFAP2C and automatically save the Results table.
