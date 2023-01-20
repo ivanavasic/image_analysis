@@ -1,0 +1,13 @@
+Use this script to quantify fluorescence signal at various radial distances in a colony in ImageJ.
+
+Steps:
+
+1. Use Exporting_CZIs.ijm script to separate and save image stacks as individual channel images, and apply the same thresholding to each channel. 
+2. Create a dir1 folder, and save the images from Step 1 to dir1.
+3. Create a dir2 folder. Within dir2, create subfolders titled "masks_image set_x", where x=1,2,3..total images to be analyzed. For example, if there are 4 image stacks, subfolders should be dir2/masks_image set_1, dir2/masks_image set_2, dir2/masks_image set_3, dir2/masks_image set_4.
+4. Create dir3 folder where all thresholded individual channel images will be saved.
+5. Create dir4 folder where results will be saved.
+
+Results Analysis
+
+Fluorescence measurement results are exported into csv files for each image stack. "Result of Mask_outline11" is the outermost radial slice. Fluorescence measurements for each individual channel image are taken for every radial slice. Number of slices and thickness of each slice can be modified within the script.
